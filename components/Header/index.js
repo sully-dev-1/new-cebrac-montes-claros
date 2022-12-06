@@ -6,7 +6,7 @@ import { BiSearch } from 'react-icons/bi';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { RiArrowDropDownLine } from 'react-icons/ri';
 import LogoHeader from '../../assets/cebrac-logo-2.png';
-import LogoPR from '../../assets/pr-bandeira.webp';
+import LogoMG from '../../assets/mg-bandeira.webp';
 import { DropDownHeader, HeaderBottom, HeaderContainer, HeaderMobileBottom, HeaderTop, SearchHeader } from './style';
 
 function Header() {
@@ -20,8 +20,8 @@ function Header() {
         <HeaderTop>
             <div className='header__content'>
                 <div className='header__flag'>
-                    <Image src={LogoPR} alt="Paraná"/>
-                    <p>Londrina - PR</p>
+                    <Image src={LogoMG} alt="Minas Gerais"/>
+                    <p>Montes Claros - MG</p>
                 </div>
                 <div>
                     <p>Ainda não é aluno?</p>

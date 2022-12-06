@@ -65,6 +65,9 @@ export const DepoimentCard = styled.div`
         margin-left: 1rem;
         color: ${({theme}) => theme.primary};
         margin-bottom: 1.87rem;
+        overflow-y: scroll;
+        max-height: 300px;
+        padding-right: 1rem;
     }
 
     .depo__bottom {
