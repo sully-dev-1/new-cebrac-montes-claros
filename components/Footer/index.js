@@ -79,7 +79,7 @@ function Footer() {
             </div>
         </div>
         <div className='footer__bottom'>
-            <p>© 2022 CEBRAC Cuiabá - Desenvolvido por <a href="https://digitalcloudbrasil.com.br/">Digital Cloud Brasil</a>.</p>
+            <p>© 2022 CEBRAC Montes Claros - Desenvolvido por <a href="https://digitalcloudbrasil.com.br/">Digital Cloud Brasil</a>.</p>
         </div>
     </FooterContainer>
   )
