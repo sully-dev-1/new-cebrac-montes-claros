@@ -4,6 +4,7 @@ import Form from '../components/Form';
 import Footer from '../components/Footer';
 import { getAllPosts } from '../lib/dato-cms';
 import BlogPosts from '../components/BlogPage';
+import ScrollToTop from '../components/ScrollToTop';
 
 export default function Blog({posts}) {
 
@@ -18,6 +19,7 @@ export default function Blog({posts}) {
         <Form />
         <div className='home__bg'></div>
       </main>
+      <ScrollToTop />
       <Footer />
     </div>
   )

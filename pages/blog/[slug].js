@@ -4,10 +4,11 @@ import Form from '../../components/Form';
 import Footer from '../../components/Footer';
 import { getAllPosts } from '../../lib/dato-cms';
 import PostBlogContent from '../../components/PostBlogContent';
+import ScrollToTop from '../../components/ScrollToTop';
 
 export default function Blog({post}) {
 
-  console.log(post, 'publicação')
+  // console.log(post, 'publicação')
   return (
     <div>
       <Head>
@@ -19,6 +20,7 @@ export default function Blog({post}) {
         <Form />
         <div className='home__bg'></div>
       </main>
+      <ScrollToTop />
       <Footer />
     </div>
   )
