@@ -11,7 +11,7 @@ function Footer() {
                 <p>Ainda não é aluno? <br/> Inscreva-se</p>
                 <a
                     className='header__btn__wpp'
-                    href="http://api.whatsapp.com/send?1=pt_BR&phone=5538988266009"
+                    href="http://api.whatsapp.com/send?1=pt_BR&phone=5538988265477"
                     target="_blank"
                     rel="noreferrer noopener"
                 >
@@ -70,7 +70,7 @@ function Footer() {
                     <FaInstagramSquare />
                 </a>
                 <a
-                    href="http://api.whatsapp.com/send?1=pt_BR&phone=5538988266009"
+                    href="http://api.whatsapp.com/send?1=pt_BR&phone=5538988265477"
                     target="_blank"
                     rel="noreferrer noopener"
                 >

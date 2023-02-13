@@ -34,7 +34,7 @@ function Header() {
                     <p>Ainda não é aluno?</p>
                     <a
                         className='header__btn__wpp'
-                        href="http://api.whatsapp.com/send?1=pt_BR&phone=5538988266009"
+                        href="http://api.whatsapp.com/send?1=pt_BR&phone=5538988265477"
                         target="_blank"
                         rel="noreferrer noopener"
                     >
@@ -161,7 +161,7 @@ function Header() {
                         <li onClick={() => setShowMenuMobile(false)}><Link href="/blog">Blog</Link></li>
                         <div className='header__mobile_social'>
                             <a
-                                href="http://api.whatsapp.com/send?1=pt_BR&phone=5538988266009"
+                                href="http://api.whatsapp.com/send?1=pt_BR&phone=5538988265477"
                                 target="_blank"
                                 rel="noreferrer noopener"
                                 onClick={() => setShowMenuMobile(false)}
